@@ -20,5 +20,12 @@ feet:5.7
 */
 /*
 Year Leyper
-rules:1-
+rules:1-divisible by 400 or
+2-divisible by 4 and not divisable by 100
 */
+function leapYear (year){
+    return  (year % 4 === 0 && year % 100 !== 0);
+}
+console.log(leapYear(2026));
+console.log(leapYear(2016));
+console.log(leapYear(1971));
