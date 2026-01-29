@@ -32,14 +32,19 @@ console.log(leapYear(1971));
 // sum of odd of an array
 function oddNumbers(numbers){
     let oddNumber =[];
-    if (numbers % 2 !==0){
-        oddNumber.push(numbers)
-    }
     let sum = 0;
-    for (num of oddNumber){
-        sum = sum + num;
+    for (let num of numbers){
+        if(num %2!==0){
+            oddNumber.push(num)
+            sum +=num
+        }
     }
     return sum
+   
 }
 const array = [1,3,20,5,11]
 console.log(oddNumbers(array));
+// array remove in dublicate value:
+let myArray = [2,2,2,34,3456,67];
+let newArray = [...new Set(myArray)]
+console.log(newArray);
