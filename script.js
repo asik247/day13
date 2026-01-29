@@ -1,19 +1,16 @@
 /* 1 foot = 12 inc
- \(0.0833\)
+ 0.0833
 code start here: inc to fit:-
 
 */
-const foot=(feet)=>{
+const inchShow = (feet) => {
     return feet * 12;
 }
-console.log(foot(5.7));
-
-
-
-
-const inch = (foot)=>{
-    // return foot*0.0833
-    return foot / 12
-
+const inch = inchShow(5.7);
+console.log('inch:', inch);
+// inch to feet conveart:
+const feetShow = (inch) => {
+    return inch / 12
 }
-console.log(inch(68.4));
+const feet = feetShow(68.4)
+console.log('feet:', feet);
