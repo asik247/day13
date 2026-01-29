@@ -14,3 +14,11 @@ const feetShow = (inch) => {
 }
 const feet = feetShow(68.4)
 console.log('feet:', feet);
+/* Output:
+inch:68.4
+feet:5.7
+*/
+/*
+Year Leyper
+rules:1-
+*/
