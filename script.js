@@ -55,3 +55,6 @@ console.log(numNew);
 // Math Method code start here:
 const ran = Math.round(Math.random()*5);
 console.log(ran);
+// Dic Game code here
+let dice = Math.floor(Math.random()*6+1);
+console.log('Dice:',dice);
