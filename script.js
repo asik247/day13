@@ -58,3 +58,7 @@ console.log(ran);
 // Dic Game code here
 let dice = Math.floor(Math.random()*6+1);
 console.log('Dice:',dice);
+// Array thake random item :
+let firendSName = ['asik','rimon','khan','jamal'];
+let randomAccess = Math.random()*firendSName.length;
+console.log(randomAccess);
