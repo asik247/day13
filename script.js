@@ -48,3 +48,9 @@ console.log(oddNumbers(array));
 let myArray = [2,2,2,34,3456,67];
 let newArray = [...new Set(myArray)]
 console.log(newArray);
+let numArray = [1,2,3,333,3,4,2,2,20]
+let numNew = [...new Set(newArray)];
+console.log(numNew);
+
+
+// 20.5 end:
