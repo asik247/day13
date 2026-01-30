@@ -60,5 +60,20 @@ let dice = Math.floor(Math.random()*6+1);
 console.log('Dice:',dice);
 // Array thake random item :
 let firendSName = ['asik','rimon','khan','jamal'];
-let randomAccess = Math.random()*firendSName.length;
-console.log(randomAccess);
+let friendRandom = Math.floor(Math.random()*firendSName.length)
+console.log(firendSName[friendRandom]);
+
+
+// let randomAccess = Math.floor(Math.random()*firendSName.length)
+// console.log(firendSName[randomAccess]);
+
+// Date and Time
+let now = new Date();
+console.log(now.getDay());
+
+// Different 
+let start = new Date("2026-01-01")
+let end = new Date("2026-01-30")
+let diff = end - start;
+let days = diff /(1000*60*60*24)
+console.log(days);
